@@ -1,0 +1,137 @@
+﻿"Titre du cube";"Numéro d'identification du produit";"Numéro d'identification de CANSIM";URL;"Notes sur le cube";"État de l'archivage";Fréquence;"Début de la période de référence";"Fin de la période de référence";"Nombre total de dimensions";Univers;"Liste de variables"
+"Indice des prix de la construction dans les services d'électricité";18100047;"327-0011";"https://www150.statcan.gc.ca/t1/tbl1/fr/tv.action?pid=1810004701";"1,2,4,5";"ACTIF - un cube qui est disponible au public et qui est toujours mise a jour";Annuelle;"1956-01-01";"2014-01-01";2;;
+
+"Numéro d'identification de la dimension";"Nom de la dimension";"Notes sur la dimension";"Notes de correction sur la dimension";"Définitions de la dimension"
+1;Géographie;;;
+2;"Indice de prix, composants";;;
+
+"Numéro d'identification de la dimension";"Nom du membre";"Code sur la classification";"Numéro d'identification du membre";"Numéro d'identification du membre parent";Terminé;"Notes sur le membre";"Notes de correction sur le membre";"Member Geo Attribute Keys";"Définitions du membre"
+1;Canada;"[11124]";1;;;;;;
+2;"Réseaux de distribution";;1;;;;;;
+2;"Total des coûts directs";;2;1;;;;;
+2;Matériaux;;3;2;;;;;
+2;"Poteaux, pylônes et accessoires";;4;3;;;;;
+2;"Poteaux de bois";;5;4;;;;;
+2;Traverses;;6;4;;;;;
+2;"Quincaillerie et isolateurs";;7;4;;;;;
+2;"Conducteurs aériens";;8;3;;;;;
+2;"Conducteurs en aluminium";;9;8;;;;;
+2;"Conducteurs en cuivre";;10;8;;;;;
+2;"Systèmes d'éclairage pour rues, et chauffe-eau";;11;3;;;;;
+2;"Luminaires et chauffe-eau";;12;11;;;;;
+2;Conducteurs;;13;11;;;;;
+2;"Poteaux en métal et en béton";;14;11;;;;;
+2;"Matériel des réseaux de distribution";;15;3;;;;;
+2;Transformateurs;;16;15;;;;;
+2;"Compteurs et interrupteurs";;17;15;;;;;
+2;"Main-d'oeuvre";;18;2;;;;;
+2;"Matériel de construction";;19;2;;;;;
+2;"Matériel, camions";;20;19;;;;;
+2;"Frais d'exploitation";;21;19;;;;;
+2;Mécaniciens;;22;21;;;;;
+2;"Autres frais d'exploitation";;23;21;;;;;
+2;"Coûts indirects de construction";;24;1;;;;;
+2;Ingénierie;;25;24;;;;;
+2;"Administration et frais généraux";;26;24;;;;;
+2;"Réseau de lignes de transport";;27;;;;;;
+2;"Réseau de lignes de transport, les intérêts encourus pendant la construction";;28;27;;;;;
+2;"Réseau de lignes de transport, excluant les intérêts encourus pendant la construction";;29;27;;;;;
+2;"Réseau de lignes de transport, excluant les transformateurs";;30;27;;;;;
+2;"Réseau de lignes de transport, excluant les transformateurs et les intérêts encourus pendant la construction";;31;27;;;;;
+2;"Lignes de transport";;32;27;;;;;
+2;"Premier terrassement et dégagement de terrains";;33;32;;;;;
+2;"Poteaux, pylônes, appareils d'électricité et conducteurs aériens";;34;32;;;;;
+2;Matériaux;;35;34;;;;;
+2;"Fondations, empattements et haubans";;36;35;;;;;
+2;"Béton préparé";;37;36;;;;;
+2;"Barres pour béton armé";;38;36;;;;;
+2;"Haubans et tôle d'acier";;39;36;;;;;
+2;"Acier pour pylônes conducteurs et isolateurs";;40;35;;;;;
+2;"Systèmes de mise à la terre et fourrures";;41;35;;;;;
+2;"Poteaux de bois";;42;35;;;;;
+2;Traverses;;43;35;;;;;
+2;"Main-d'oeuvre d'érection";;44;34;;;;;
+2;"Équipement d'érection";;45;34;;;;;
+2;Équipement;;46;45;;;;;
+2;"Chargeuses à benne frontale";;47;46;;;;;
+2;"Tracteurs sur chenilles";;48;46;;;;;
+2;"Compresseurs mobiles";;49;46;;;;;
+2;"Camions basculants hors-route";;50;46;;;;;
+2;Hélicoptères;;51;46;;;;;
+2;"Grues automotrices";;52;46;;;;;
+2;"Perforatrices de roc sur chenilles";;53;46;;;;;
+2;"Frais d'exploitation";;54;45;;;;;
+2;"Coûts indirects de construction";;55;32;;;;;
+2;Ingénierie;;56;55;;;;;
+2;"Administration au bureau central";;57;55;;;;;
+2;"Moyennes de rendement des obligations";;58;55;;;;;
+2;"Lignes des transmissions, les intérêts encourus pendant la construction";;59;55;;;;;
+2;"Lignes des transmissions, excluant les intérêts encourus pendant la construction";;60;32;;;;;
+2;"Sous-stations";;61;27;;;;;
+2;"Premier terrassement et dégagement des terrains";;62;61;;;;;
+2;"Bâtiment principal de la station";;63;61;;;;;
+2;Infrastructure;;64;63;;;;;
+2;Excavation;;65;64;;;;;
+2;Bétonnage;;66;64;;;;;
+2;Matériaux;;67;66;;;;;
+2;Équipement;;68;66;;;;;
+2;"Main-d'oeuvre";;69;66;;;;;
+2;"Bâtiment de la station";;70;63;;;;;
+2;"Agencement de soutien et accessoires";;71;61;;;;;
+2;"Construction en acier ou en tuyaux";;72;71;;;;;
+2;Fondations;;73;72;;;;;
+2;"Structures d'acier";;74;72;;;;;
+2;"Main-d'oeuvre";;75;72;;;;;
+2;"Construction en bois et accessoires";;76;71;;;;;
+2;Matériaux;;77;76;;;;;
+2;Poteaux;;78;77;;;;;
+2;Quincaillerie;;79;77;;;;;
+2;"Main-d'oeuvre";;80;76;;;;;
+2;"Équipement de poste";;81;61;;;;;
+2;Équipement;;82;61;;;;;
+2;"Transformateurs d'alimentation";;83;82;;;;;
+2;"Disjoncteurs, disjoncteurs à réenclenchement";;84;82;;;;;
+2;"Panneaux de commutation et autres équipement";;85;84;;;;;
+2;"Câbles d'alimentation et conducteurs communs par barre";;86;84;;;;;
+2;"Main-d'oeuvre";;87;82;;;;;
+2;"Coûts indirects de construction";;88;61;;;;;
+2;Ingénierie;;89;88;;;;;
+2;"Administration au bureau centrale";;90;88;;;;;
+2;"Moyennes de rendement des obligations";;91;88;;;;;
+2;"Sous-stations, les intérêts encourus pendant la construction";;92;88;;;;;
+2;"Sous-stations, excluant les intérêts encourus pendant la construction";;93;61;;;;;
+2;"Sous-stations, excluant les transformateurs";;94;61;;;;;
+2;"Sous-stations, excluant les transformateurs et les intérêts encourus pendant la construction";;95;61;;;;;
+
+Légende Symbole
+Description;Symbole
+"indisponible pour une période de référence précise";".."
+"inférieur à la limite de détection";<LDD
+"valeur arrondie à 0 (zéro) là où il y a une distinction importante entre le zéro absolu et la valeur arrondie";"0s"
+"qualité des données: excellente";A
+"qualité des données: très bonne";B
+"qualité des données: bonne";C
+"qualité des données: acceptable";D
+"à utiliser avec prudence";E
+"trop peu fiable pour être publié";F
+"n'ayant pas lieu de figurer";"..."
+provisoire;p
+révisé;r
+"confidentiel en vertu des dispositions de la Loi sur la statistique";x
+terminé;t
+
+"Code d'enquête";"Nom de l'enquête"
+"2316";"Indice des prix à la construction dans les services d'électricité"
+
+"Code du sujet";"Nom du sujet"
+"18";"Prix et indices des prix"
+
+"Numéro d'identification de la note";Note
+1;"Cet indice mesure la variation de prix pour la construction de deux modèles distincts de services d'électricité."
+2;"Pour plus d'information sur ce tableau, voir « Enquête/programme : Indice des prix à la construction dans les services d'électricité, 1992=100 - 2316 » dans CANSIM, page d'accueil du tableau 327-0011."
+4;"Les estimations de l'année en cours sont provisoires et sujettes à révisions."
+5;"Suite à la diffusion des données pour l'année de référence de 2014, l'Indice des prix de la construction dans les services d'électricité (IPCSE) sera suspendu. Le programme sera révisé afin de s'assurer que les prochains modèles tiennent compte des pratiques actuelles de la construction. Pour plus d'information ou pour participer aux consultations des utilisateurs, veuillez communiquer avec nous sans frais au 1-800-263-1136 ou 514-283-8300 (statcan.infostats-infostats.statcan@canada.ca)."
+
+"Numéro d'identification de la dimension";"Numéro d'identification du membre";"Clé d'attribut";Titre;Étiquette;"Étiquette longue";Valeur
+
+
